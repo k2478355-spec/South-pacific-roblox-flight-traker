@@ -1,0 +1,3 @@
+South Pacific Flight Tracker — Android APK source project.
+This ZIP IS NOT an APK. To build: upload contents to a GitHub repository, go to Actions > Build Android APK > Run workflow, download SouthPacific-Android-APK artifact and extract app-debug.apk. Or build locally using Gradle 8.9 with Android SDK 35 and Java 17: gradle :app:assembleDebug.
+This application includes offline HTML assets, local flight data, search and favorites. Background notifications are NOT supported. Live Discord/Roblox data is NOT connected. The four historical records are unverified. WebView file:// mode may limit exporting files and browser Notification APIs. This is a debug APK for personal testing, not a Play Store release.
